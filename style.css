@@ -1,0 +1,211 @@
+:root {
+    --first : rgb(183, 183, 183);
+    --second: rgb(31, 31, 31);
+
+    /* --first: rgb(112, 52, 52);
+    --second: rgb(255, 255, 255); */
+
+    /* --second: rgb(62, 69, 13);
+    --first: rgb(109, 104, 102); */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: var(--first); */
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 1000px;
+    background-color: var(--first);
+    /* border: 2px solid black; */
+}
+
+.main .profile {
+    width: 90%;
+    height: 1000px;
+    background-color: var(--first);
+    /* border: 1px solid green; */
+    margin: auto;
+    
+    
+}
+
+.main .profile .left-profile {
+    width: 33%;
+    background-color: var(--second);
+    height: 100vh;
+    float: left;
+    position: relative;
+    top: 20%;
+    left: 5%;
+    border-radius: 7%;
+    /* border: 1px solid red; */
+    box-shadow: 10px 15px 10px rgb(95, 95, 95);
+}
+
+.main .profile .left-profile .myImg {
+    border-radius: 50%;
+    border: 10px solid var(--first);
+    position: absolute;
+    top: -20%;
+    left: 25%;
+}
+
+.name {
+    color: var(--first);
+    margin: 32% auto 15px auto;
+    width: 75%;
+    padding-bottom: 10px;
+    /* margin: auto; */
+    border-bottom: 2px solid var(--first);
+    text-align: center;
+    
+
+}
+
+.dob {
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+    /* margin: auto; */
+    border-bottom: 2px solid var(--first);
+    color: var(--first);
+}
+
+.contact {
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+    /* margin: auto; */
+    border-bottom: 2px solid var(--first);
+    color: var(--first);
+}
+
+.experience {
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+    border-bottom: 2px solid var(--first);
+    color: var(--first);
+}
+
+
+.main .profile .right-profile {
+    font-size: 1.2rem;
+    width: 50%;
+    background-color: var(--first);
+    color: var(--second);
+    /* height: 85vh; */
+    float: right;
+    position: relative;
+    top: 10%;
+    right: 5%;
+    /* border: 2px solid var(--second); */
+}
+
+.right-profile h2 {
+    border-left: 5px solid var(--second);
+    padding-left: 5px;
+    margin-bottom: 15px;
+}
+
+.firstEdu {
+    margin: 0 0 10px 10px;
+}
+
+.secondEdu {
+    margin: 0 0 10px 10px;
+}
+
+.thirdEdu {
+    margin: 0 0 10px 10px;
+}
+
+.edu {
+    /* border: 2px solid black; */
+    margin-bottom: 20px;
+}
+
+.skills {
+    /* border: 2px solid black; */
+    /* height: 100vh; */
+    margin-bottom: 20px;
+}
+
+.skills div h2 {
+    /* border-bottom: 2px solid black; */
+}
+
+.two {
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: space-around;
+}
+
+.skills .two .leftSkills ul{
+    margin-left: 20px;
+    /* width: 45%;
+    float: left;
+    border: 2px solid black;
+    margin: 0 0 10px 10px; */
+    /* position: relative; */
+    /* left: 10px; */
+}
+
+.sills .two .rightSkills ul {
+    /* width: 45%;
+    float: right;
+    border: 2px solid black;
+    margin: 0 0 10px 10px; */
+    /* position: relative; */
+    /* left: 10px; */
+    
+}
+
+.license h4 {
+    margin-left: 10px;
+    margin-bottom: 8px;
+}
+
+.license h4 .licenseComp{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+footer {
+    background-color: var(--second);
+    color: var(--first);
+    width: 100%;
+    height: 30vh;
+}
+
+footer h2 {
+    padding: 40px 0 20px 20px;
+}
+
+footer a {
+    margin-top: 10px;
+    margin-left: 22px;
+    text-decoration: none;
+    color: var(--first);
+}
+
+footer a i {
+    width: 1.2rem;
+}
+
+.contact-links {
+    border-bottom: 2px solid var(--first);
+    padding-bottom: 30px;
+}
+
+.end {
+    text-align: center;
+    padding-top: 20px;
+}
+
+
